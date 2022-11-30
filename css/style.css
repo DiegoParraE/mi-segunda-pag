@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(82, 82, 82);
+    font-family: sans-serif;
+    margin: 0;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    animation-name: anime;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.logo{
+    float: left;
+    padding: 5px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.menu{
+    float: right;
+    padding: 30px 50px;
+}
+#redesSociales{
+   background-color: #e7e7e7;
+    width: 150px;
+    height: 30px;
+}
+#canales{
+    background-color: #e7e7e7;
+    width: 150px;
+    height: 30px;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px;
+    margin: 50px 0px;
+}
+.contenidoHistoria{
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+}
+.contenidoHistoria img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    animation-name: bordeC;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.contenidoHistoria a{
+    text-decoration: none;
+}
+.contenidoCanciones{
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+}
+.contenidoCanciones img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    animation-name: bordeC;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.contenidoCanciones a{
+    text-decoration: none;
+}
+.contenidoPremios{
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+}
+.contenidoPremios img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    animation-name: bordeC;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.contenidoPremios a{
+    text-decoration: none;
+}
+p{
+    font-size: 30px;
+    color: black;
+}
+
+@keyframes anime {
+0%{
+    border-radius: 20px;
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+20%{
+    border-radius: 30px;
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+40%{
+    border-radius: 40px;
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+60%{
+    border-radius: 50px; 
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+80%{
+    border-radius: 60px;
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+100%{
+    border-radius: 70px;
+    background-image: url(https://source.unsplash.com/random/?constelations);
+}
+}
+@keyframes bordeC {
+    0%{
+      border-radius:35% 70% 61% 29% / 62% 47% 53% 40%; 
+    }
+    20%{
+      border-radius:40% 51% 56% 45% / 65% 43% 56% 33% ;
+    }
+    40%{
+      border-radius:41% 54% 69% 43% / 72% 50% 50% 28%;
+
+    }
+    60%{
+      border-radius:65% 35% 62% 38% / 62% 57% 43% 38% ; 
+
+    }
+    80%{
+      border-radius:47% 55% 57% 45% / 71% 46% 56% 31% ;
+    }
+    100%{
+      border-radius:38% 62% 68% 32% / 61% 52% 48% 39% ;
+    }
+  }
+    
